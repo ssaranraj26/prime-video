@@ -1,0 +1,32 @@
+.video-container {
+  padding: 1rem;
+  align-self: center;
+}
+.popup-content {
+  border-radius: 20px;
+  padding: 1rem 1rem 2rem 1rem;
+  width: 100%;
+  max-width: 730px;
+}
+.thumbnail-button,
+.close-btn {
+  border: none;
+  outline: none;
+  background-color: transparent;
+}
+.thumbnail {
+  width: 100%;
+  padding: 0.5rem;
+}
+.modal-body {
+  display: flex;
+  flex-direction: column;
+}
+.close-btn {
+  cursor: pointer;
+  align-self: flex-end;
+}
+.close-icon {
+  width: 20px;
+  height: 20px;
+}
